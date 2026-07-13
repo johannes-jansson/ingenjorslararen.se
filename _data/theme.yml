@@ -1,0 +1,12 @@
+# Välj färgtema ("skin")
+# Alternativ: default, night, plum, sea, soft, steel
+skin: default
+
+# Google Fonts (laddas automatiskt av temat)
+google_fonts:
+  - name: "Special Elite"     # rubriker i skrivmaskinsstil
+    weights: "400"
+
+# (valfri menyordning)
+# navigation_pages:
+#   - about.md

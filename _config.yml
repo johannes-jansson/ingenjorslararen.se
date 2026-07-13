@@ -1,0 +1,34 @@
+# Site settings
+title: Ingenjörsläraren
+email: johannes.e.jansson@gmail.com
+description: >-
+  Ingenjörslärarens tankar. 
+baseurl: ""
+url: "https://ingenjorslararen.se"
+lang: sv
+timezone: Europe/Stockholm
+markdown: kramdown
+
+# Misc
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+logo: /assets/img/t_100.png
+search: true
+
+gems:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: /page:num/
+permalink: /:title/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

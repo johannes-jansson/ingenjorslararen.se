@@ -1,0 +1,32 @@
+---
+# Endast huvud-Sass-filen behöver front matter
+---
+
+@charset "utf-8";
+
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+@import "basically-basic";
+
+/* Rubriker i skrivmaskinsstil */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite', 'Courier New', monospace;
+  letter-spacing: .01em;
+}
+.site-title {
+  font-family: 'Special Elite', 'Courier New', monospace;
+  letter-spacing: 0.01em;
+  text-transform: none;      /* säkerställ små bokstäver */
+  font-size: 1.6rem;         /* justera efter smak */
+}
+
+/* Länkfärg i varm kaffe/papyrus-ton (valfritt) */
+a { color: #b5884a; }
+a:hover { color: #996f38; }
+
+/* Dölj rubrikerna på startsidan */
+.layout--home .intro {
+  display: none !important;
+}
+.layout--home .section-title {
+  display: none !important;
+}
