@@ -11,7 +11,7 @@ markdown: kramdown
 
 # Misc
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-logo: /assets/img/t_100.png
+logo: /assets/img/i_100.png
 search: true
 
 plugins:
