@@ -5,4 +5,5 @@ gem "webrick" # för lokal 'bundle exec jekyll serve' på Ruby 3
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
 end

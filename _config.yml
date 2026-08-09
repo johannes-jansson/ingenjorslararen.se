@@ -14,8 +14,9 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 logo: /assets/img/t_100.png
 search: true
 
-gems:
+plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 paginate: 10
 paginate_path: /page:num/
